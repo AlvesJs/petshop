@@ -1,0 +1,104 @@
+body{
+    background-image: url(imagens/dog.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+#frase{
+    position: relative;
+    top: 20;
+    left: 70px;
+}
+
+.inicio{
+    position: relative;
+    top: 80px;
+    color: #000539;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 93%; 
+    
+}
+
+.final{
+    position: relative;
+    top: 75px;
+    color: rgba(254, 172, 1, 0.90);
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 93%; 
+    
+}
+
+.para{
+    position: relative;
+    top: 100px;
+    left: 70px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p{
+    color: #000;
+    font-family: Asap;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 127%; 
+}
+
+.btn-teste{
+    position: relative;
+    top: 130px;
+    left: 70px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 1s ease;
+}
+
+.btn-teste:hover{
+    transform: scale(1.1);
+}
+
+.nav-item {
+    position: relative;
+    justify-content: space-between;
+    left: 600px;
+    font-size: 24px;
+    background-color: #00000000;
+    margin: 1.2rem;
+    display: flex;
+    margin-left: 60px;
+}
+
+.navbar{
+    background-color: transparent;
+}
+
+img{
+    position: relative;
+    left: 70px;
+}
+
+.nav-item{
+    position: relative;
+    left: 50%;
+    size: 120px;
+}
+.container-fluid{
+    background-color: transparent;
+}
+
+.btprin{
+    position: relative;
+    bottom: 610px;
+    left: 1480px;
+}
